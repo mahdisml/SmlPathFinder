@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PathFinder" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Main</item>
+        <item name="colorPrimaryVariant">@color/Main</item>
+        <item name="colorOnPrimary">@color/Main</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Main</item>
+        <item name="colorSecondaryVariant">@color/Main</item>
+        <item name="colorOnSecondary">@color/Main</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.PathFinder.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PathFinder.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PathFinder.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
